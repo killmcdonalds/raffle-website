@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const cardErrors = document.getElementById('card-errors');
   
     // Initialize Stripe
-    const stripe = Stripe('pk_test_51RGOSxQT1SwZPlh2tYvJVHiPnsr9V2uU9HwJfBiQI08TjeKZHzduBJr34tkG1HwICX2r8bEQ1WZ375ECQbTf5MxL00lDNRwCXz'); // Replace with your pk_test_...
+    const stripe = Stripe('pk_live_51RGOSmKPTEMOeGQbPVlc2HX5Q6gswIOZ2gjit7I0mDJ9L8Os5nPOQQuMO7HR35IYaM2JvioD1RZsZuNBt9osqodc009Oz9yLdl'); // Replace with your pk_test_...
     const elements = stripe.elements();
     const card = elements.create('card');
     card.mount('#card-element');
