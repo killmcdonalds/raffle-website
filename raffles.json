@@ -1,0 +1,72 @@
+{
+  "raffles": {
+    "10-ticket": {
+      "entries": [
+        {
+          "name": "asrf",
+          "email": "killmcdonalds@gmail.com"
+        },
+        {
+          "name": "asrf",
+          "email": "killmcdonalds@gmail.com"
+        },
+        {
+          "name": "asrf",
+          "email": "killmcdonalds@gmail.com"
+        }
+      ],
+      "maxEntries": 10,
+      "ticketPrice": 10,
+      "prizes": [
+        75,
+        10,
+        2
+      ]
+    },
+    "100-ticket": {
+      "entries": [],
+      "maxEntries": 100,
+      "ticketPrice": 10,
+      "prizes": [
+        750,
+        100,
+        20
+      ]
+    },
+    "100-ticket-high": {
+      "entries": [],
+      "maxEntries": 100,
+      "ticketPrice": 100,
+      "prizes": [
+        7500,
+        1000,
+        200
+      ]
+    }
+  },
+  "winners": [
+    {
+      "raffleType": "10-ticket",
+      "winners": [
+        {
+          "name": "erf",
+          "email": "hirebrianchampagne@yahoo.com"
+        },
+        {
+          "name": "dfg",
+          "email": "killmcdonalds@gmail.com"
+        },
+        {
+          "name": "erf",
+          "email": "hirebrianchampagne@yahoo.com"
+        }
+      ],
+      "prizes": [
+        75,
+        10,
+        2
+      ],
+      "date": "2025-04-21T20:03:03.584Z"
+    }
+  ]
+}
